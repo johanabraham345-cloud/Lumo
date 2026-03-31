@@ -14,6 +14,9 @@ More engaging (visual + audio + movement together)
 
 **This project was created to support children with learning disabilities who often struggle with traditional teaching methods. LUMO aims to make learning more engaging and easier to understand by combining visual, audio, and physical interaction, especially in situations where individual attention is limited.**
 ![IMG_5251 (1)](https://github.com/user-attachments/assets/12c0066d-d809-4f16-9a7a-2e29dafa2b82)
+![IMG_5334](https://github.com/user-attachments/assets/f8958f99-30ca-4c31-a9c2-0ba749172b07)
+![IMG_5252 (1)](https://github.com/user-attachments/assets/23067795-520b-4d24-81a9-081e86b45c33)
+
 
 ▶️ **How to use**
 
@@ -36,6 +39,8 @@ Colours (red, blue, green, yellow)
 Objects
 Faces (for tracking and engagement)
 ![IMG_5385](https://github.com/user-attachments/assets/ab7e8077-e3f6-42be-91b9-862715312239)
+![Screenshot 2026-01-15 161725](https://github.com/user-attachments/assets/d55a9d50-b2a3-43c1-a5d7-45389a3a7466)
+![Screenshot 2026-01-15 162325](https://github.com/user-attachments/assets/9840a6d9-096d-4a09-a8e9-9e2b9d8ef768)
 
 3. **Robotic Arm**
 Responds to commands
@@ -49,3 +54,11 @@ Screen shows:
 Questions
 Feedback
 Prompts and learning cues
+
+**Circuit Design**
+![Lumo Circuit Schematic (1)](https://github.com/user-attachments/assets/8243c9d4-496f-42c4-a157-7e07ae96099a)
+
+📌 Credits
+3D Modelling: Designed using Fusion 360 for creating the robotic arm structure and custom components.
+Software Development: Implemented using Python with libraries for AI, computer vision, and hardware control.
+
