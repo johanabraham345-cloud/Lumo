@@ -1,5 +1,42 @@
-LUMO is an inclusive, AI-powered robotic learning assistant designed to support children with learning disabilities through engaging, multi-sensory experiences. Built on a Raspberry Pi platform, LUMO integrates a camera-guided robotic arm, an interactive screen module, and artificial intelligence to create a hands-on learning environment that adapts to each learner’s needs.
+💡 Why LUMO was built
 
-The system helps develop foundational skills such as colour recognition, basic mathematics, language development, and emotional literacy through voice-based interaction, visual object recognition, and adaptive questioning. The robotic arm responds to spoken commands, identifies and sorts objects using camera input, and performs physical actions that reinforce learning concepts. At the same time, the interactive screen provides visual feedback, stories, quizzes, and emotion-based cues to maintain attention and encourage active participation.
+**Traditional learning methods often don’t work well for children who need more visual, hands-on, and interactive experiences. Many students struggle with:**
 
-LUMO is designed as a supportive learning aid rather than a replacement for teachers, therapists, or parents. It helps sustain learner engagement during moments when individual attention may be limited, while still working alongside traditional teaching methods. The system is modular, customisable, and built using affordable hardware and 3D-printed components, making it suitable for use in classrooms, therapy centres, and home learning environments. Through its empathetic and interactive design, LUMO aims to make education more accessible, engaging, and inclusive for diverse learners.
+Lack of individual attention
+Difficulty understanding abstract concepts
+Low engagement in passive learning
+
+LUMO was created to make learning:
+
+More interactive (through physical actions)
+More accessible (simple voice-based interaction)
+More engaging (visual + audio + movement together)
+
+This project was created to support children with learning disabilities who often struggle with traditional teaching methods. LUMO aims to make learning more engaging and easier to understand by combining visual, audio, and physical interaction, especially in situations where individual attention is limited.
+
+▶️ How to use
+
+Power on the system and launch the main program on the Raspberry Pi. Once running, LUMO enters listening mode through the microphone. Speak clearly to give commands or respond to its questions. The system processes your voice input, generates a response, and replies through the speaker.
+
+Place objects within the camera’s view so LUMO can detect and recognise them. Based on the interaction, the robotic arm will move to pick, place, or sort objects accordingly. Follow the prompts shown on the display, which guide the activity with questions, feedback, and instructions to keep the interaction smooth and engaging.
+
+⚙️ How it works
+1. Voice Interaction (NLP)
+The system listens using a microphone
+Converts speech to text using local models
+Processes input using AI
+Responds with voice output
+2. Vision System
+Uses a camera to detect:
+Colours (red, blue, green, yellow)
+Objects
+Faces (for tracking and engagement)
+3. Robotic Arm
+Responds to commands
+Picks and sorts objects
+Uses two containers to visually represent sorting
+4. Interactive Feedback
+Screen shows:
+Questions
+Feedback
+Prompts and learning cues
