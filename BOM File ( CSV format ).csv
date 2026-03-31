@@ -1,0 +1,19 @@
+Category,Component,Specification,Quantity,Description,Reference Link
+Core,Raspberry Pi 4 Model B,4GB RAM,1,Main controller for AI processing,https://www.amazon.in/dp/B07TC2BK1X
+Core,MicroSD Card,32GB,1,Storage for OS,https://www.amazon.in/dp/B073JWXGNT
+Core,Power Supply (Raspberry Pi),5V 3A USB-C,1,Power source,https://www.amazon.in/Raspberry-Pi-Official-USB-C-Supply/dp/B0D4DM1D21
+Vision,Pi Camera Module,4MP,1,Colour and face detection,https://www.amazon.in/Raspberry-Pi-Camera-Board/dp/B00L1FOIIS
+Vision,Camera Ribbon Cable,Standard,1,Connects camera to Raspberry Pi,https://www.amazon.in/REES52-Ribbon-Camera-Cable-Raspberry/dp/B07MDGQSJP
+Robotic Arm,Servo Motors,MG90,2,Arm movement,https://www.amazon.in/TESTIN-ELECTRONICS-Helicopter-Airplane-Controls/dp/B0GCHKBFHS
+Robotic Arm,Servo Motors,MG995,4,Arm movement,https://www.amazon.in/TESTIN-ELECTRONICS-Metal-MG995-180%C2%BA-Helicopter/dp/B0GCJ151MF
+Robotic Arm,Servo Driver Module,PCA9685,1,Servo control,https://www.amazon.in/Ketrix-PCA9685-16-Channel-12-Bit-Interface/dp/B0B12YGVST
+Robotic Arm,Robotic Arm Structure,3D Printed,1 set,Mechanical structure,"Custom Design sourced from local shop (3D printed, available on git repo)"
+Robotic Arm,End Effector / Gripper,Custom,1,Object pickup,"Custom Design sourced from local shop (3D printed, available on git repo)"
+Robotic Arm,Sorting Containers,Plastic bins,2,Sorting system,"Custom Design sourced from local shop (3D printed, available on git repo)"
+Power,Buck converter for Servo Power,5V Output,1,Servo power,https://www.amazon.in/Converter-Adjustable-Constant-Regulator-1-2V-35V/dp/B0FBLDL89F
+Power,Jumper Wires,Various,Many,Connections,https://www.amazon.in/Electronic-Spices-Jumper-Female-Multicolor/dp/B0CPFCRCHB
+Audio,USB Microphone,Plug and Play,1,Voice input,https://www.amazon.in/SHOPEE-Cancelling-USB-Microphone-Rotatable/dp/B0FRNSF46B
+Audio,Speaker,3.5mm Jack,1,Audio output,https://www.amazon.in/Zebronics-Zeb-Fame-Multi-Speakers-Control/dp/B07L3NDN24
+Display,Touchscreen / HDMI Display,7 inch,1,Visual UI,https://www.amazon.in/Waveshare-1024%C3%83-600-Capacitive-Screen-Beaglebone/dp/B083V7WK15
+Misc,PCB / Breadboard,Standard,1,Circuit assembly,Normal PCB's from local shop ( Circuit available on git repo )
+Misc,Mounting Hardware,"Screws, nuts, spacers",Many,Assembly,Sourced from local shops
