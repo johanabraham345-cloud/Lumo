@@ -1,9 +1,7 @@
 import pigpio
 from time import sleep
-
-# List of servo GPIO pins
-servo_pins = [5, 6, 12, 13, 16, 19]
-
+# TESTING PURPOSE FOR STATIC
+servo_pins = [5, 6, 12, 13, 16
 # Start pigpio
 pi = pigpio.pi()
 if not pi.connected:
