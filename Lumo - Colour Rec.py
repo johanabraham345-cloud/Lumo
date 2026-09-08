@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import time
 
-# Initialize PiCamera2
+# setup for the gemini api to control it
 picam2 = Picamera2()
 picam2.start()
 time.sleep(1)  # Give the camera time to warm up
