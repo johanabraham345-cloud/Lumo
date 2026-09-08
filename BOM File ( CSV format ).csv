@@ -17,3 +17,4 @@ Audio,Speaker,3.5mm Jack,1,Audio output,https://www.amazon.in/Zebronics-Zeb-Fame
 Display,Touchscreen / HDMI Display,7 inch,1,Visual UI,https://www.amazon.in/Waveshare-1024%C3%83-600-Capacitive-Screen-Beaglebone/dp/B083V7WK15
 Misc,PCB / Breadboard,Standard,1,Circuit assembly,Normal PCB's from local shop ( Circuit available on git repo )
 Misc,Mounting Hardware,"Screws, nuts, spacers",Many,Assembly,Sourced from local shops
+.
