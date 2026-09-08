@@ -1,3 +1,4 @@
+# FOR LIVE SPEECH TO TEXT TRANSLATION
 import os
 import queue
 import threading
