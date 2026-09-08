@@ -1,4 +1,4 @@
-💡 Why LUMO was built
+Why LUMO was built
 
 **Traditional learning methods often don’t work well for children who need more visual, hands-on, and interactive experiences. Many students struggle with:**
 
