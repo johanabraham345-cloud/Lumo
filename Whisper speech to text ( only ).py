@@ -1,3 +1,4 @@
+## Wisper and vosk comparision testing for accurate translatetsd
 import sounddevice as sd
 import numpy as np
 import scipy.signal
