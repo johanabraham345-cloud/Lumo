@@ -1,4 +1,4 @@
-# FACE TRACKING FOR ROBOT ARM (ASCII SAFE VERSION)
+# FACE TRACK v6 with gemini Robotic ER MODEL
 
 from picamera2 import Picamera2
 import cv2
