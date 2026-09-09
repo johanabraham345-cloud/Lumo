@@ -11,7 +11,7 @@ WHISPER_RATE = 16000
 RECORD_SECONDS = 4
 MODEL_SIZE = "base"
 
-print("Loading Whisper model...")
+print("Loading Whisper model..")
 model = WhisperModel(MODEL_SIZE, device="cpu", compute_type="int8")
 print("Whisper STT ready.")
 print("Speak normally. Transcribing every", RECORD_SECONDS, "seconds.\n")
