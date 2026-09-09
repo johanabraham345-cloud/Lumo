@@ -1,3 +1,4 @@
+# still lagging and zoomed out
 from picamera2 import Picamera2
 import cv2
 import time
