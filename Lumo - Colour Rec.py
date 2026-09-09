@@ -6,7 +6,7 @@ import time
 
 picam2 = Picamera2()
 picam2.start()
-time.sleep(1) #setup time 
+time.sleep(1) #setup time ig
 
 #HSV color ranges btw, gotta tune them soon
 color_ranges = {
