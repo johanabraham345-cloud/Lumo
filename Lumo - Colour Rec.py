@@ -3,12 +3,12 @@ import cv2
 import numpy as np
 import time
 
-# setup for the gemini api to control it
+
 picam2 = Picamera2()
 picam2.start()
-time.sleep(1)  # Give the camera time to warm up
+time.sleep(1) #setup time 
 
-# Define HSV color ranges (as list of tuples)
+#HSV color ranges btw, gotta tune them soon
 color_ranges = {
     "red": [
         (np.array([0, 100, 100]), np.array([10, 255, 255])),
