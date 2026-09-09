@@ -27,7 +27,6 @@ color_ranges = {
     ],
 }
 
-# BGR colors used for rectangle and text drawing
 label_colors = {
     "red": (0, 0, 255),
     "green": (0, 255, 0),
@@ -35,7 +34,6 @@ label_colors = {
     "yellow": (0, 255, 255),
 }
 
-# Load Haar cascade for face detection
 face_cascade_path = '/home/sarun/my_opencv_project/haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 if face_cascade.empty():
@@ -43,7 +41,6 @@ if face_cascade.empty():
     exit()
 
 while True:
-    # Capture and convert frame
     frame_rgb = picam2.capture_array()
     frame = cv2.cvtColor(frame_rgb, cv2.COLOR_RGB2BGR)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
@@ -66,13 +63,12 @@ while True:
                 cv2.putText(frame, color.upper(), (x, y - 10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, label_colors[color], 2)
 
-    # Face detection
+    # Daa Face detection thingy
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.1, 4)
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
-    # Show result
     cv2.imshow("Camera Feed", frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
